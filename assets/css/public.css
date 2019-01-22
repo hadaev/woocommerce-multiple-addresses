@@ -1,0 +1,18 @@
+/* This stylesheet is used to style the public view of the plugin. */
+
+#addresses > div {
+	border-bottom: 1px solid #777;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+/* Styles validation */
+#address_form .woocommerce-invalid.woocommerce-invalid-required-field .select2-selection{
+	border-color: #a00;
+}
+#address_form .woocommerce-validated .select2-selection{
+	border-color: #69bf29;
+}
+
+#address_form .default_shipping_address:checked{
+	pointer-events: none;
+}
